@@ -1,0 +1,56 @@
+
+
+header {
+    font-family: "Molle", cursive;
+    text-align: center;
+    font-size: 40px;
+      color: #bbae1d;
+  text-align: center;
+  padding: 20px;
+  border-width: 6px;
+  border-style:dotted;
+  border-color: #740505;
+}
+.card {
+  color: #845d5d;
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  text-align: left;
+  border: 6px solid #bbae1d;
+  border-style: dashed;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.madeby {
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 0.8em;
+  color: #555;
+  border: 6px solid #bbae1d;
+  border-style: double;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px
+}
+
+img {
+    border-style: groove;
+  border-width: 9px;
+  border-color:#bbae1d;
+}
+
+
+footer {
+  color: #555;
+  text-align: center;
+  font-size: 0.8em;
+  border: 6px solid #bbae1d;
+  border-style: dotted;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px
+}
+
