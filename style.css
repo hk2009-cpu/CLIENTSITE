@@ -1,27 +1,50 @@
+body {
+  background-color:#fffd9c
+}
 
 
 header {
     font-family: "Molle", cursive;
     text-align: center;
     font-size: 40px;
-      color: #bbae1d;
+      color: #bb1d1d;
   text-align: center;
   padding: 20px;
   border-width: 6px;
   border-style:dotted;
-  border-color: #740505;
+  border-color: #3e670b;
 }
 .card {
-  color: #845d5d;
-  display: inline-block;
+  color: #2e7ea0;
+  display:inline-block;
   vertical-align: top;
   width: 45%;
   text-align: left;
-  border: 6px solid #bbae1d;
+  border: 6px solid #2e7ea0;
   border-style: dashed;
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
+}
+
+.faq-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.faq-layout .faq-blocks {
+  width: clamp(72px, 16vw, 180px);
+  height: auto;
+}
+
+.faq-card {
+  display: block;
+  flex: 1 1 0;
+  width: auto;
+  max-width: 700px;
+  margin: 10px 0;
 }
 
 .madeby {
@@ -29,28 +52,25 @@ header {
   text-align: center;
   font-size: 0.8em;
   color: #555;
-  border: 6px solid #bbae1d;
+  border: 6px solid #3e670b;
   border-style: double;
   border-radius: 5px;
   padding: 10px;
   margin: 10px
 }
 
-img {
-    border-style: groove;
-  border-width: 9px;
-  border-color:#bbae1d;
-}
+
 
 
 footer {
   color: #555;
   text-align: center;
   font-size: 0.8em;
-  border: 6px solid #bbae1d;
+  border: 6px solid #3e670b;
   border-style: dotted;
   border-radius: 5px;
   padding: 10px;
   margin: 10px
 }
+
 
